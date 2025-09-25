@@ -43,7 +43,7 @@ while true; do
 	# Start Minecraft server
 
 	java \
-		-Xms3400M -Xmx3400M \
+		-Xms10400M -Xmx10400M \
 		\
 		-Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true \
 		-XX:+UseG1GC \
