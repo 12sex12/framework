@@ -13,7 +13,7 @@ ssh-keyscan -H $hostname >> ~/.ssh/known_hosts
 
 while true; do
 	if [ ! -d "$folder" ]; then
-		git clone --depth 1 git@$hostname:kaboomserver/schematics.git $folder
+		git clone --depth 1 git@$hostname:12sex12/schematics.git $folder
 	fi
 
 	cd $folder
